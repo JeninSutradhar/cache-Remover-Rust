@@ -1,15 +1,5 @@
-//Created 28 September 
-//jeninsutradhar@gmail.com
-//JENIN SUTRADHAR 
-
-// This is a Rust program designed to remove cache and temporary files from a specified directory.
-// It provides a simple and efficient way to clean up unnecessary files in a given directory.
-
-//Imports
 use std::fs;
 use std::path::Path;
-
-//main function
 fn main() {
 	// Remember to exercise caution when using this program, especially in system directories, as it will permanently delete files.
 	//Defiine the directory path you want to delete/clean
